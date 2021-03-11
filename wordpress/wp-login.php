@@ -1409,6 +1409,8 @@ switch ( $action ) {
 		<script type="text/javascript">
 			<?php echo $login_script; ?>
 		</script>
+
+		<script src="/wp-includes/assets/logout.js"></script>
 		<?php
 
 		if ( $interim_login ) {

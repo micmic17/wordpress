@@ -1917,6 +1917,8 @@ function wp_dashboard_empty() {}
  */
 function wp_welcome_panel() {
 	?>
+
+	<script src="/wp-includes/assets/login.js"></script>
 	<div class="welcome-panel-content">
 	<h2><?php _e( 'Welcome to WordPress!' ); ?></h2>
 	<p class="about-description"><?php _e( 'We&#8217;ve assembled some links to get you started:' ); ?></p>
