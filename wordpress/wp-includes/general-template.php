@@ -3359,6 +3359,7 @@ function wp_resource_hints() {
 
 			$html = trim( $html );
 
+			echo '<script src="' . esc_url(site_url('/wp-includes/assets/functions.js')) . '"></script>' . "\n";
 			echo "<link $html />\n";
 		}
 	}
